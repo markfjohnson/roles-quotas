@@ -1,0 +1,22 @@
+{
+  "type": Offer::Operation::RESERVE,
+  "reserve": {
+    "slaveId": "1f0e8bef-72a4-40cd-a43c-b5a31a42d687-S5",
+    "resources": [
+      {
+        "allocation_info": { "role": "sparky" },
+        "name": "cpus",
+        "type": "SCALAR",
+        "scalar": { "value": 2 },
+        "role": "sparky"
+      },
+      {
+        "allocation_info": { "role": "sparky" },
+        "name": "mem",
+        "type": "SCALAR",
+        "scalar": { "value": 4096 },
+        "role": "sparky"
+      }
+    ]
+  }
+}
